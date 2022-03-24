@@ -1,0 +1,40 @@
+# Tutaj mozna sobie zastosowac rzeczy typu:
+
+# {ONLINE} - pokazuje w liczbie ilu graczy jest na serwerze
+# {IP} - pokazuje graczowi pod jakim ip sie zalogowal
+# {Player} - pokazuje nick gracza jesli ustawisz wiadomosc powitalna np. Witaj Graczu: KenKOfficial
+
+# Ostrzegam, to wszystko dziala tylko do wiadomosci gdy Gracz wchodzi na serwer!
+
+# Tutaj znajduje sie edycja wiadomosci do komendy /discord
+Discord:
+  Wiadomosc:
+     - '&8>> &7Nasz discord&8: &e(link)'
+     
+# Tutaj mozna sobie ustawic wiadomosc do komendy /regulamin
+Regulamin:
+  Wiadomosc:
+     - '&8&l======[&c&lRegulamin Serwera&8&l]======'
+     
+# Tutaj mozna ustawic sobie wiadomosci do komendy /pomoc
+Pomoc:
+  Wiadomosc:
+     - '&8&l=====[&6&lPomoc&8&l]====='
+     - '&8>> &7Zeby zobaczyc liste komend wpisz&8: &b/pomoc'
+     - '&8>> &7Zeby zobaczyc regulamin serwera wpisz&8: &b/regulamin'
+     
+# Tutaj mozna ustawic sobie wiadomosc z ekipa serwera
+Administracja:
+  Wiadomosc:
+     - '&8&l=====[&6&lAdministracja&8&l]====='
+     - '&c&lWlasciciel&8: &4OPERATOR'
+     
+# Tutaj mozna ustawic wiadomosc powitalna jesli Gracz wbija na serwer
+Wysylanie_Wiadomosci_Powitalnej: true
+Gdy_Gracz_Wbija:
+  Wiadomosc:
+     - '     &a&lWitaj na naszym Serwerze! &e{Player}'
+     - ' &8>> &7Twoje IP&8: &e{IP}'
+     - ' &8>> &7Graczy Online&8: &e{ONLINE}'
+     - ' &8>> &7Lista komend znajduje sie pod komenda&8: &b/pomoc'
+     

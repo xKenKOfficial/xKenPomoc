@@ -1,0 +1,16 @@
+main: x.KenKOfficial.Pomoc.Main.Main
+version: 1.0-Beta
+name: xKenPomoc
+author: KenKOfficial
+description: Plugin Autorstwa KenKOfficial
+website: https://discord.gg/zHb47pDTES 
+
+commands:
+  administracja:
+      aliases: [ekipa]
+  discord:
+      aliases: [dsc, dc]
+  pomoc:
+      aliases: [help]
+  regulamin:
+      aliases: [rules]
